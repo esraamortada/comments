@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #131722 !important;
+    color: #fff;
+    
+}
+
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.vote{
+    background-color: #24baef;
+    padding: 5px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.brdr{
+    background-color: #a8a8a83d;
+    height: 2px;
+}

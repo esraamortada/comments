@@ -1,0 +1,31 @@
+.film{ 
+    transition:transform 1s;
+}
+
+.film:hover{
+    transform: scale(1.2);
+}
+.film h3{
+    text-align: center;
+}
+h2{
+    text-shadow: 3px 3px 7px rgb(215, 35, 35);
+}
+.page{
+    padding: 8px;
+    border: 1px solid wheat;
+}
+.row-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+.bg-dangger{
+    background-color: red;
+    color: white;
+}
+.bg-ligght{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,14 @@
+{
+  "register": [
+    {
+      "first_name": "esraa",
+      "last_name": "mortada",
+      "email": "esraa@gmail.com",
+      "age": 23,
+      "password":"Abcd"
+    }
+  ],
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
+}

@@ -1,0 +1,22 @@
+<div class="row">
+
+    <div class="w-75 d-flex gap-4">
+    <div class="col-md-3 my-4">
+        <img [src]="imagePrefix + movieDetails.poster_path" alt="{{movieDetails.title}}" class="img-fluid rounded">
+    </div>
+
+    <div class="col-md-7">
+        <div class="d-flex flex-column justify-content-center h-100">
+            <h3 class="mt-2">{{movieDetails.title}}</h3>
+            <p>{{movieDetails.tagline}}</p>
+            <p class="lead" [ngStyle]="{'color': movieDetails.overview.length >20 ?'red':'green'}">{{movieDetails.overview}}</p>
+            <div>
+
+               <p>{{movieDetails.vote_average}}</p>
+                <p>{{movieDetails.release_date}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div> 
+
