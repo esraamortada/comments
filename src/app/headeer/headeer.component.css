@@ -63,12 +63,12 @@ align-items: center;
 background: #005DFF;
 border-radius: 50%;
 }
-.hr{
+.hr2{
     width: 1px;
 height: 17px;
 background-color: #FFFFFF;
 }
-.head-nav{
+.head-navv{
     display: flex;
     align-items: center;
     column-gap: 10px;
@@ -78,7 +78,7 @@ background-color: #FFFFFF;
     column-gap: 16px;
     align-items: center;
 }
-.head-nav .links a{
+.head-navv .links a{
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -111,21 +111,23 @@ justify-content: center;
 align-items: center;
 column-gap: 10px;
 }
-.social .item{
+.social-head .item{
     font-size: 12px;
     display: flex;
     column-gap: 3px;
     align-items: center;
 }
-.social{
+.social-head{
     display: flex;
     align-items: center;
     column-gap: 16px;
+   
 
 }
 .left{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
     row-gap: 16px;
     width: 300px;
