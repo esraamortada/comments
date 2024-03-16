@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./comments.component.css']
 })
 export class CommentsComponent {
+show:boolean=false;
 
+  showmenu(){
+    this.show=!this.show;
+  }
 }

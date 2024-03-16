@@ -25,13 +25,26 @@
             <i class="fa-solid fa-calendar-days"></i>
             <p>a month ago</p>
           </div>
-          <div class="dots-container">
+          <div class="dots-container" (click)="showmenu()">
             <div class="dot"></div>
             <div class="dot"></div>
             <div class="dot"></div>
 
         </div>
+        <div class="menu" *ngIf="show ">
+          <ul>
+            <li><i class="fa-solid fa-circle-exclamation"></i> spam</li>
+            <li><i class="fa-solid fa-circle-exclamation"></i> Misclassified</li>
+            <li><i class="fa-solid fa-circle-exclamation"></i> Duplicated</li>
+            <li><i class="fa-solid fa-circle-exclamation"></i> Offensive</li>
+            
+
+          </ul>
+
         </div>
+        </div>
+
+        
       
       </div>
       <div class="comment reply">
@@ -56,12 +69,13 @@
             <i class="fa-solid fa-calendar-days"></i>
             <p>a month ago</p>
           </div>
-          <div class="dots-container">
+          <div class="dots-container" >
             <div class="dot"></div>
             <div class="dot"></div>
             <div class="dot"></div>
 
         </div>
+    
         </div>
       
       </div>

@@ -100,6 +100,31 @@ column-gap: 20px;
 .reply{
     margin-left: 50px;
 }
+
+.menu{
+    width: 165px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    color: #00000099;
+
+}
+.menu ul{
+    list-style-type: none;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.menu ul li{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    
+}
 /*write commmentttttttttttttttttttttttttttttttttttttttttttttttttttttt*/
 
 .write-comment{
