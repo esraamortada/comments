@@ -1,0 +1,17 @@
+
+<div class="description-container">
+    <p class="text-head">Description</p>
+    <div class="hr"></div>
+   <div class="inner-container">
+    <div class="text"  >
+        <p>{{text}}</p>
+        
+    
+        <a *ngIf="!showFullText && text.length > 30" (click)="showMore()">Read more</a>
+        </div>
+        <img src="assets/pexels-kampus-production-8813567.jpg" alt="" />
+   </div>
+   
+</div>
+
+<!--[style.max-height]="showFullText ? null : '100px'"-->

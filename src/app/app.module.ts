@@ -18,6 +18,9 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { MovieDetailsComponent } from './movie-details/MovieDetailsComponent';
 import { CommentsComponent } from './comments/comments.component';
+import { HeadeerComponent } from './headeer/headeer.component';
+import { FeaturesComponent } from './features/features.component';
+import { DescriptionComponent } from './description/description.component';
 
 
 
@@ -34,6 +37,9 @@ import { CommentsComponent } from './comments/comments.component';
     LoginComponent,
     MovieDetailsComponent,
     CommentsComponent,
+    HeadeerComponent,
+    FeaturesComponent,
+    DescriptionComponent,
    
    
   ],

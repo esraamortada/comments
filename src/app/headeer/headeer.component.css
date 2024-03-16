@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+ 
+    width: 100%;
+    position: relative;
+  
+}
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 400px;
+}
+.header img{
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+}
+.location{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+.price{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.price p:first-child{
+    font-size: 20px;
+}
+.price p:nth-child(2){
+    font-size: 22px;
+}
+.free{
+    width: 62px;
+height: 23px;
+padding: 5px;
+font-size: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #E74C3C ;
+border-radius: 10px;
+}
+.home{
+    padding: 5px;
+    width: 28px;
+height: 28px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: #005DFF;
+border-radius: 50%;
+}
+.hr{
+    width: 1px;
+height: 17px;
+background-color: #FFFFFF;
+}
+.head-nav{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.links{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+.head-nav .links a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.rating{
+    color:  #FFC107;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    column-gap: 3px;
+}
+.location p{
+    font-size: 14px;
+}
+.rating p{
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+.location-container{
+    display: flex;
+    column-gap: 16px;
+}
+.share{
+    width: 99px;
+height: 40px;
+background: #FFFFFF;
+border-radius: 5px;
+color: #E74C3C;
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 10px;
+}
+.social .item{
+    font-size: 12px;
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 16px;
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 70px;
+}
+.after-header{
+    height: 69px;
+width: 100%;
+background: #FFFFFF ;
+box-shadow: 0px 3px 14px #005DFF1A;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 60px;
+}
+.links-list {
+    color: #707070;
+  
+    display: flex;
+    column-gap: 10px;
+   
+  
+}
+.after-header .links-list a{
+    color: #707070;
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    
+    background: #FFFFFF ;
+    box-shadow: 0px 3px 6px #005DFF1C;
+    border-radius: 4px;
+    color:  #E74C3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons{
+    display: flex;
+    column-gap: 16px;
+}
+
+.dot{
+    background: #E74C3C;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+
+    
+}
+.icon:nth-child(3){
+    flex-direction: column;
+    row-gap: 1px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+@media screen and (max-width: 1300px) and (min-width:992px) {
+
+
+
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+   
+
+    .after-header{
+        height: auto;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+ 
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .content{
+        top: 50px;
+        width: 100%;
+        left: 0;
+    }
+    .left{
+        width: 100%;
+        right: 0;
+        bottom: 20px;
+    }
+    .location-container{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .header img{
+        height: 80vh;
+    }
+        
+
+    .after-header{
+        height: auto;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .after-header .links-list a{
+        font-size: 12px;
+       
+    }
+   
+
+}
+
+@media screen and (max-width: 600px) {
+    .content{
+        top: 50px;
+        width: 100%;
+        left: 0;
+    }
+    .left{
+        width: 100%;
+        right: 0;
+        bottom: 20px;
+    }
+    
+    .location-container{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .header img{
+        height: 80vh;
+    }
+    
+    .after-header{
+        height: auto;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 10px;
+    }
+    .after-header .links-list a{
+        font-size: 10px;
+       
+    }
+   
+ 
+}
+@media screen and (max-width: 500px) {
+    .links-list{
+        flex-direction: column;
+    }
+    .head-nav .links a{
+        font-size: 12px;
+    }
+
+}

@@ -9,6 +9,9 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { MovieDetailsComponent } from './movie-details/MovieDetailsComponent';
 import { CommentsComponent } from './comments/comments.component';
+import { HeadeerComponent } from './headeer/headeer.component';
+import { FeaturesComponent } from './features/features.component';
+import { DescriptionComponent } from './description/description.component';
 
 const routes: Routes = [
 
@@ -18,6 +21,9 @@ const routes: Routes = [
   {path:"login", component:LoginComponent},
   { path:'moviedetails/:id',component:MovieDetailsComponent},
   { path:'comment',component:CommentsComponent},
+  { path:'desc',component:DescriptionComponent},
+  { path:'feature',component:FeaturesComponent},
+  { path:'header',component:HeadeerComponent},
   {path:"**",component:NotfoundComponent}
 ];
 
