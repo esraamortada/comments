@@ -59,6 +59,7 @@ column-gap: 20px;
 }
 .rating{
     color: #FFC107;
+   
 }
 .comment-content{
     padding: 10px;
@@ -141,29 +142,31 @@ column-gap: 16px;
 .write-comment .input{
     background: #F8F8F8;
     border-radius: 8px;
-    border: none;
+
     width: 532px;
 height: 40px;
-    outline: none;
-    padding: 8px;
+   
+   
     position: relative;
     display: flex;
-    justify-content: center;
+
     align-items: center;
   
 }
-.input input{
+.write-comment .input input{
     background: #F8F8F8;
     border-radius: 8px;
     border: none;
-    width: 500px;
+    width: 450px;
     height: 40px;
     outline: none;
+    padding: 8px;
   
 }
-.iconss{
+.icons{
     position: absolute;
     right: 10px;
+    top: 12px;
     color: #B0B0B0;
     display: flex;
     column-gap: 10px;
@@ -172,6 +175,7 @@ height: 40px;
 .write-comment form{
     display: flex;
     column-gap: 16px;
+    width: 100%;
 }
 .send{
     width: 40px;
@@ -351,7 +355,7 @@ font-size: 16px;
    }
 
    .write-comment .input input{
-    width: 90%;
+    width: 80%;
    }
 
    .add-comment input{

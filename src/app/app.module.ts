@@ -21,6 +21,10 @@ import { CommentsComponent } from './comments/comments.component';
 import { HeadeerComponent } from './headeer/headeer.component';
 import { FeaturesComponent } from './features/features.component';
 import { DescriptionComponent } from './description/description.component';
+import { CardsComponent } from './cards/cards.component';
+import { Mariosection1Component } from './mariosection1/mariosection1.component';
+import { Mariosection2Component } from './mariosection2/mariosection2.component';
+import { Mariosection3Component } from './mariosection3/mariosection3.component';
 
 
 
@@ -40,6 +44,10 @@ import { DescriptionComponent } from './description/description.component';
     HeadeerComponent,
     FeaturesComponent,
     DescriptionComponent,
+    CardsComponent,
+    Mariosection1Component,
+    Mariosection2Component,
+    Mariosection3Component,
    
    
   ],
