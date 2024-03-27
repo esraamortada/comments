@@ -16,6 +16,7 @@ import { CardsComponent } from './cards/cards.component';
 import { Mariosection1Component } from './mariosection1/mariosection1.component';
 import { Mariosection2Component } from './mariosection2/mariosection2.component';
 import { Mariosection3Component } from './mariosection3/mariosection3.component';
+import { SingleProductComponent } from './single-product/single-product.component';
 
 const routes: Routes = [
 
@@ -32,6 +33,7 @@ const routes: Routes = [
   { path:'mario2',component:Mariosection2Component},
   { path:'mario3',component:Mariosection3Component},
   { path:'card',component:CardsComponent},
+  { path:'product',component:SingleProductComponent},
   {path:"**",component:NotfoundComponent}
 ];
 

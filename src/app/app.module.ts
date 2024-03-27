@@ -25,6 +25,7 @@ import { CardsComponent } from './cards/cards.component';
 import { Mariosection1Component } from './mariosection1/mariosection1.component';
 import { Mariosection2Component } from './mariosection2/mariosection2.component';
 import { Mariosection3Component } from './mariosection3/mariosection3.component';
+import { SingleProductComponent } from './single-product/single-product.component';
 
 
 
@@ -48,6 +49,7 @@ import { Mariosection3Component } from './mariosection3/mariosection3.component'
     Mariosection1Component,
     Mariosection2Component,
     Mariosection3Component,
+    SingleProductComponent,
    
    
   ],
